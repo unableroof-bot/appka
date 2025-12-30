@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/webapp", "destination": "/webapp/index.html" },
+    { "source": "/api/(.*)", "destination": "/api/index.py" }
+  ]
+}
